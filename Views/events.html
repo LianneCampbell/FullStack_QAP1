@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileSystem</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+        <hr>
+        <h1>Event Emitter</h1>
+        <hr>
+    </div>
+    <p><b>Events</b>
+        The events module allows you to work with events and event-driven programming. It provides the EventEmitter class, which is used to handle asynchronous events.
+    <br>
+    Usage:
+
+    Create and handle custom events.
+    Listen for events and execute callback functions when events are emitted.
+    Manage event listeners.</p>
+        <ul>
+            <li>EventEmitter - An instance of EventEmitter is created to handle events.</li>
+            <li>eventEmitter.on() - method registers an event handler for a specific event.</li>
+            <li>eventEmitter.emit() - method emits an event, triggering the corresponding event handler.</li>
+        </ul>
+        <p>The use of EventEmitter in this server context provides a clean and decoupled way to handle specific actions when certain events occur. 
+            <br>For example, logging access to pages can be handled by the event listeners, making the main server logic simpler and more focused on routing and serving content. 
+            <br>This event-driven approach can be extended to handle more complex scenarios like authentication events, data processing events, and more.</p>
+    
+        <hr>
+        <b><a href="http://localhost:3000/">Back to Home</a></b> <p>&copy; Lianne Campbell 2024</p>
+    </div>
+</body>
+</html>

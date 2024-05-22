@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTTP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="container">
     <div class="header">
+        <hr>
         <h1>HTTP</h1>
+        <hr>
     </div>
     <p><b>HTTP</b>
         The http module in Node.js allows for the creation of web servers and making HTTP requests. It provides functionalities to handle HTTP requests and responses, making it essential for building web applications and APIs.
@@ -17,5 +21,17 @@
         Create an HTTP server that listens for requests on a specified port.
         Handle incoming HTTP requests and send responses back to the client.
         Make HTTP requests to other servers.</p>
+        <ul>
+            <li>http.createServer() - method creates a new HTTP server and sets up a callback function to handle incoming requests.</li>
+            <li>req (request) & res (response) - objects are used to interact with the HTTP request and response respectively.</li>
+            <li>res.writeHead(200, { 'Content-Type': 'text/plain' }) - sets the HTTP status code to 200 and the response content type to plain text.</li>
+            <li>res.end('Enter Text Here\n') - sends the response body to the client.</li>
+        </ul>
+    <p>The http module in Node.js is a fundamental tool for creating web servers and handling HTTP requests and responses. It provides a simple and flexible API to build a variety of server-side applications. 
+    <br>Understanding how to use the http module effectively is crucial for developing robust and scalable web services with Node.js.</p>
+
+    <hr>
+    <b><a href="http://localhost:3000/">Back to Home</a></b> <p>&copy; Lianne Campbell 2024</p>
+</div>
 </body>
 </html>
