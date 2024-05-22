@@ -1,0 +1,16 @@
+{
+  "name": "fullstack_qap1",
+  "version": "1.0.0",
+  "description": "Files for FSTK QAP1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1",
+    "validator": "^13.12.0"
+  }
+}
